@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellects Corner</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles2.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Intellects Corner </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Find...." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">category</a>
+            <a href="#reviews">reviews</a>
+            <a href="./feedback.html">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Spreading knowledge carelessly.</h3>
+            <p>Have you always wanted to gain knowledge through studying but lacked where to access the materials?
+               Worry no more since Intellects corner got you covered. Explore this website where we provide your favourite books free of charge.</p>
+            <a href="./downloadepage.html" class="btn">View All Available Books</a>
+            <button onclick="requestBook()" class="btn">Request a Book</button>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/changing the way you think.jpg" alt=""></a>
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/high value man cover.jfif" alt=""></a>
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/how to win friends.jpg" alt=""></a>
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/it starts with us.jpg" alt=""></a>
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/pride and prejudice.jpg" alt=""></a>
+                <a href="downloadepage.html" target="_blank" class="swiper-slide"><img src="./images/the silence of the lambs.jpg" alt=""></a>
+            </div>
+            <img src="https://raw.githubusercontent.com/KordePriyanka/Books4MU-Book-Store-Website-/main/image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="./product.html"> <img src="./images/who moved my cheese.jpeg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>WHO MOVED MY CHEESE</h3>
+                    <div class="price">Free download <span>$30.19</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./product.html"> <img src="./images/behind her eyes.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>BEHIND HER EYES</h3>
+                    <div class="price">Free download <span>$51.90</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="product.html"><img src="./images/changing the way you think.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>CHANGING THE WAY YOU THINK</h3>
+                    <div class="price">Free download <span>$12.40</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/it starts with us.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>IT STATRTS WITH US</h3>
+                    <div class="price">Free download <span>$54.81</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/pride and prejudice.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>PRIDE AND PREJUDICE</h3>
+                    <div class="price">Free download <span>$13.89</span></div>
+                    <a  target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/the art of war.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>THE ART OF WAR</h3>
+                    <div class="price">Free download <span>$63.31</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/the silence of the lambs.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>THE SILENCE OF THE LAMBS</h3>
+                    <div class="price">Free download <span>$10.99</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/how to win friends.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>HOW TO WIN FRIENDS</h3>
+                    <div class="price">Free download <span>$20.99</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!t</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/why we get sick.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>WHY WE GET SICK</h3>
+                    <div class="price">Free download <span>$20.99</span></div>
+                    <a target="_blank" href="./downloadepage.html" class="btn">Download now!</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>For timely updates please SUBSCRIBE!! </h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- category section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Category</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/finance cover.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Finance Books</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/self help.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Self Help Books</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/religion cover.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Religion Books</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/love cover.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Love Books</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/fiction cover.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fiction Books</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="./images/science cover.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Science Books</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Checkout before this deal expires at midnight.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="./images/offer 1.jfif" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>What Our clients had to say...</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./images/mpic3.jfif" alt="">
+                <h3>Muchiri</h3>
+                <p>I just love this online library, i can get any book i want here.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/fpic2.jfif" alt="">
+                <h3>Akoth</h3>
+                <p>The books here are cheap and affordable, I will always recomend this particular website to any reader.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/mpic4.jfif" alt="">
+                <h3>King'ang'i </h3>
+                <p>I wish i knew about this site earlier</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/mpic6.jfif" alt="">
+                <h3>Maxwell </h3>
+                <p>Why cant other sites just be as good as this one?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/mpic3.jfif" alt="">
+                <h3>Chimano </h3>
+                <p> I swear this is the website you never knew you wanted</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+<!-- feedback section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>feedback</span> </h1>
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>What do you think..?</h3>
+            <a href="./feedback.html" class="btn">Your thoughts</a>
+            <!-- <a href="./feedback.html"><input type="submit" value="feedback"> -->
+            </a>
+        </form>
+
+    </section>
+</section>
+
+<!-- feedback section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Our Offices</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Nairobi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Thika </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="./index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Category </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="./feedback.html"> <i class="fas fa-arrow-right"></i> feedback </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>Get in touch</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +254 745 196 540 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> ngesuhalfa5@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> knowledgecorner@gmail.com </a>
+            <img src="./images/kenyan map 1.jpg" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-github"></a>
+        <a href="https://www.linkedin.com/in/rohit-m-3494521a2/" class="fab fa-linkedin"></a>
+        <a href="https://twitter.com/priyankakorde" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/im_priyankak_/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/priyanka-korde-2029521a1/" class="fab fa-facebook-f"></a>
+        
+    </div>
+
+    <div class="credit"> Developed by <span>Halfa... </span>copyright ©2023 All rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="https://raw.githubusercontent.com/KordePriyanka/Books4MU-Book-Store-Website-/main/image/loader-img.gif" alt="">
+</div>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
